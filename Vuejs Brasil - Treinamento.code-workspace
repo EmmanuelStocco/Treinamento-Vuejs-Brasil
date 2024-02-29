@@ -1,0 +1,26 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "workbench.colorTheme": "Default Light+", // Escolha o tema de cores desejado
+        "editor.tokenColorCustomizations": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "comment",
+                        "keyword",
+                        "variable",
+                        "string",
+                        "number"
+                    ],
+                    "settings": {
+                        "foreground": "#ff0000" // Cor do texto (foreground)
+                    }
+                }
+            ]
+        },
+    }
+}
