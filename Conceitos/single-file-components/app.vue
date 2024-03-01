@@ -4,7 +4,7 @@
         <input type="text" v-model="name">
         <br>
 
-        <a :href="link"> Link pro curso! <a/>
+        <a: href="link"> Link pro curso! </a:>
     </div>
 </template>
 

@@ -13,7 +13,7 @@
                 :key="`${task}-${index}`"
             >
                 {{ tasks.name}}
-            <li />
+            </li>
         </ul>
         <p v-else>Lista de tarefas escondidas </p> 
         <!-- Só de ter um v-if acima, o vue detecta que o v-else é relativo ao superior -->
